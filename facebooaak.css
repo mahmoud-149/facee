@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Parkinsans:wght@300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  background-color: #f0f2f5;
+  margin: 1em;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+.main {
+  /* height: 80vh; */
+  /* width: 100%; */
+}
+.left {
+  /* height: 60vh; */
+  /* padding-top: 4em; */
+  /* font-weight: 600; */
+}
+.logo {
+  font-size: 66px;
+}
+p {
+  margin-bottom: 0.5em;
+}
+.right {
+  /* width: 43%; */
+}
+.panal {
+  width: 400px;
+  /* height: 58vh; */
+  box-shadow: 0px 0px 20px gray;
+}
+.bottext {
+  font-size: 20.5px;
+}
+input {
+  font-size: 15px;
+}
+.checck {
+  margin-bottom: 0.5em;
+}
+.showcheck {
+  color: blue;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+.downpanal {
+  width: 100%;
+  text-align: center;
+}
+.line {
+  background: gray;
+  margin: 16px;
+  width: 90%;
+  height: 1px;
+  opacity: 0.5;
+}
+.register {
+  background-color: #42b72a;
+  color: white;
+}
+.register:hover {
+  background-color: #369423;
+  color: white;
+}
+.push {
+  height: 18vh;
+}
+@media (max-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    align-items: center;
+  }
+  p {
+    margin-bottom: 1.5em;
+  }
+  .push {
+    height: 0vh;
+  }
+}
